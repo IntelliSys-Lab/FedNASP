@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Build artifacts
+build/
+dist/
+Matterport3DSimulator/build/
+Matterport3DSimulator/data/
+
+# Runtime outputs
+logs/
+snap/
+plots/
+wandb/
+analysis_checkpoints/
+
+# Large data and features
+img_features/
+
+# REVERIE data
+datasets/REVERIE/annotations/
+datasets/REVERIE/BBox/
+datasets/REVERIE/features/
+datasets/REVERIE/trained_models/
+
+# CVDN data
+datasets/CVDN/annotations/
+datasets/CVDN/trained_models/
+
+# Pretrained weights
+datasets/vln-bert/*.bin
+datasets/vlnbert/
+
+# Model checkpoints and logs
+*.ckpt
+*.pth
+*.pt
+*.log
